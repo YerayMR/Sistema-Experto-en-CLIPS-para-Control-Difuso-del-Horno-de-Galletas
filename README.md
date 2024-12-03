@@ -11,19 +11,18 @@ La abuela María hornea galletas artesanalmente y ajusta la temperatura según e
 El sistema experto usa conjuntos difusos para modelar:
 
 ### Índice cromático (estado de las galletas)
-- **Un poco crudas:** `(1/4, 0.5/6, 0/7)`
-- **Medio hechas:** `(0/3, 1/5, 1/6, 0/8)`
-- **Doraditas:** `(0/5, 1/7)`
+- **poco_crudas:** `(1/4, 0.5/6, 0/7)`
+- **medio_hechas:** `(0/3, 1/5, 1/6, 0/8)`
+- **doraditas:** `(0/5, 1/7)`
 
 ### Temperatura del horno (en °C)
-- **Baja:** `(0/150, 1/160, 1/180, 0/190)`
-- **Media:** `(0/170, 1/190, 1/210, 0/230)`
-- **Alta:** `(0/210, 1/220, 1/240, 0/250)`
+- **baja:** `(0/150, 1/160, 1/180, 0/190)`
+- **media:** `(0/170, 1/190, 1/210, 0/230)`
+- **alta:** `(0/210, 1/220, 1/240, 0/250)`
 
 ## Archivos
 - **`bc_galleta_maria.clp`:** Base de conocimientos con las reglas difusas.
 - **`bh_galleta_maria.clp`:** Base de hechos inicial.
-- **`ejercicio_galletas.pdf`:** Documento con los requisitos del ejercicio.
 
 ## Prueba de Ejecución
 El sistema fue probado con un índice cromático inicial de 6. A continuación, se muestra el resultado obtenido al ejecutar el sistema experto en CLIPS:
