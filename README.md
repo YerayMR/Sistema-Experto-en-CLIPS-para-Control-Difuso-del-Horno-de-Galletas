@@ -28,7 +28,7 @@ El sistema experto usa conjuntos difusos para modelar:
 ## Prueba de Ejecución
 El sistema fue probado con un índice cromático inicial de 6. A continuación, se muestra el resultado obtenido al ejecutar el sistema experto en CLIPS:
 
-![Prueba de ejecución](./WhatsApp%20Image%202024-12-03%20at%2014.22.33.jpeg)
+![Prueba de ejecución](./Prueba.jpeg)
 
 ### Salida del Sistema:
 1. Se definen los `deftemplates` y las reglas en `bc_galleta_maria.clp`.
